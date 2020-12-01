@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    background-color: royalblue;
+    color: red;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 35px;
+
+  }
+
+  .specialheader {
+    padding: 20px;
+    color: red;
+    width: 100%;
+    font-size: 60px;
+    letter-spacing: 22px;
+    text-align: center;
+    text-shadow: 15px 15px 15px black;
+  
+  }
+
+
+body {
+    margin: 2px;
+    background: url("basketball.jpg");
+}
+
+table {
+  margin: 10px 40px 10px 40px;
+      background-color: royalblue;
+}
+
+.content {
+    margin: 0px 40px 10px 0px;
+      background-color: royalblue;
+      width: 100%;
+}
+
+.content p {
+  margin: 20px;
+}
+.card {
+  text-align: center;
+  margin-bottom: 10px;
+  color: gainsboro;
+  background-color: royalblue;
+}
+
+.header-title {
+    text-align: center;
+    color: red;
+}
+
+nav {
+    font-size: 1.3rem;
+    color: black;
+    background-color: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+      /* justify-content: space-around; */
+      }
+      nav ul li {
+        background-color: blue;
+        color: black:
+        cursor: pointer;
+        padding: 0.5rem;
+        flex: auto;
+        text-align: center
+        
+      }
+      nav ul li:hover {
+        background-color: #555;
+        color: white;
+      }
+
+footer {
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+
+ 
+
+  }
+  .list-header {
+    text-align: center;
+    color: red;
+    background-color: royalblue;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .list-group-item {
+    text-align: justify;
+    background-color: royalblue;
+    color: black;
+    border: 5em;
+  }
+  .form-app {
+      padding: 55px;
+      background-color: royalblue;
+      width: 100%;
+      margin: 0px 10px 10px 0px;
+      align-content: center;
+      text-align: center;
+      
+  }
+  input[type=text], select {
+    width: 60%;
+    padding: 12px 12px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: left;
+  }
+  
+  input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .submit {
+    text-align: center;
+  }
+
+
+
+  /* Responsive Nav Bar */
+@media all and (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+    nav ul li {
+      text-align: center;
+    }
+  }

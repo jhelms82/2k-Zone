@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+	<html>
+	<head>  
+  <!--Javascript file-->
+  <script src="2kzone.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <!-- Bootstrap CSS -->
+    <link  href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet3.css">
+    <title> Nba 2K Zone</title>
+	</head>
+<!--Background image-->
+<body id="background-img">
+<!-- Using class selector for Jquery from bootstrap-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-blue">
+<div>
+<header class="specialheader">
+
+<strong>NBA 2K Zone League</strong>
+
+</header>
+<nav>
+<!-- Using class selector for Jquery from bootstrap-->
+<div>
+<ul>
+   <li> <a href="index.html">Home</a></li>
+ <li> <a href="leaguestandings.html">League</a></li>
+ <li> <a href="rules.html">Rules</a></li>
+  <li><a href="teamregistration.html">Team Registration</a></li>
+  <li><a href="playerapplication.html">Player Application</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+</div>
+</ul>
+</nav>
+    <h1 class="card"> <b>Team Registration<b></h1>
+    </div>
+<!-- Form with a onsite javascript action-->
+    <form class="form-app" name="myForm" onsubmit="return validateForm()" method="post">
+    <div>
+  <label for="console">Console <br></label><br>
+    <select name="console" id="console">
+    <option value="PS4">Playstation 4</option>
+    <option value="Xbox1">X-Box 1</option></select><br><br>
+    </div><br>
+    <div>
+   <label for="formGroupExampleInput">Team Name:</label><br>
+   <input type="text" class="form-control" id="formGroupExampleInput" name="teamName" placeholder="Team Name"><br>
+   </div><br>
+   <div>
+   <label for="formGroupExampleInput">Captain Name:</label><br>
+   <input type="text" class="form-control" id="formGroupExampleInput" name="captainName" placeholder="Full Name"><br>
+   </div><br>
+
+    <div>
+      <label for="inputEmail4">Captain Email</label><br>
+      <input type="email" class="form-control" id="formGroupExampleInput" name="captainEmail" placeholder="Email"><br>
+    </div><br>
+      <div>
+   <label for="formGroupExampleInput">Team Twitter Handle:</label><br>
+   <input type="text" class="form-control" id="formGroupExampleInput" name="teamTwitter" placeholder="@"><br>
+   </div><br>
+   <div>
+   <label for="formGroupExampleInput">Twitch User:</label><br>
+   <input type="text" class="form-control" id="formGroupExampleInput" name="twitchUser" placeholder="Twitch"><br>
+   </div><br>
+     
+  </div><br>
+  <div class="submit">
+   <input type="submit" value="Submit Registration">
+   </div>
+  </form>
+</div>
+</div>
+<footer><p>Copyright (c) 2020 NBA 2K Zone </p> </footer>
